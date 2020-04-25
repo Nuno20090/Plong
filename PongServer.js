@@ -10,7 +10,7 @@ var MyApp =
     expressApp: {},
     httpServer: {
         server: {},
-        port: process.env.PORT
+        port: 3000
     },
 
     socketIO: {},
