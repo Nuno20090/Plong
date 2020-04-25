@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Game info</title>
+    <style>
+
+        body
+        {
+            background-color: rgb(1, 71, 105);
+            padding: 10px;
+        }
+        h1
+        {
+            color:white;
+            font-family: Helvetica, sans-serif;
+            font-size:20px;
+        }
+        label 
+        {
+            color:white;
+            display: inline-block;
+            width:100px; 
+            font-family: Helvetica, sans-serif;
+        }
+        input 
+        { 
+            color: #fff; 
+            color:black;
+            font-family: Helvetica, sans-serif;
+        }
+        button
+        {
+            font-family: Helvetica, sans-serif;
+        }
+            
+    </style>
+</head>
+
+<body>
+
+    <h1>Node.js Pong</h1>
+    <p display="block">
+        <label for="playerName">Player Name</label>
+        <input type="text" maxlength="16" id="playerName"/>
+    </p>
+    <p display="block"></p>
+        <label for="gameID">Game ID</label>
+        <input type="text" maxlength="5" id="gameID"/>
+    </p>
+    <button type="button" id="join_game">Join game</button>
+
+    <script src="controllerInfo.js"></script>
+
+</body>
+
+</html>
