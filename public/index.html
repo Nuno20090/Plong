@@ -2,21 +2,62 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title>PLONG</title>
+    <style>
 
-    <title>Pong!</title>
-
+        body
+        {
+            background-color: rgb(243, 193, 160);
+            padding: 10px 40px;
+        }
+        h1
+        {
+            color:dimgray;
+            font-family: Helvetica, sans-serif;
+            font-size:60px;
+        }
+        h2
+        {
+            color:dimgray;
+            font-family: Helvetica, sans-serif;
+            font-size:30px;
+        }
+        h3
+        {
+            color:dimgray;
+            font-family: Helvetica, sans-serif;
+            font-size:16px;
+        }
+        
+        .l
+        {
+            color:black;
+        }       
+    </style>
 </head>
 
 <body>
     
-    <a href="./Controller/controllerInfo.html">Controller</a>
-    <br/>
-    <a href="./GameDisplay/gamedisplay.html">Game Display</a>
-   
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="TestSocketIOClient.js"></script>
+    <h1>PLONG</h1>
     
+    <h2>
+        1. Create new <a href="./GameDisplay/gamedisplay.html">display</a> in you computer or TV
+    </h2>
+    <h3>
+        Link: <a class=l>http://18.224.39.75:3000/GameDisplay/gamedisplay.html</a>
+    </h3>
+
+    <h2>
+        2. Open a new <a href="./Controller/controllerInfo.html">controller</a> in your mobile phone and join the game using the GameID.
+    </h2>
+    <h3>
+        Link: <a class=l>http://18.224.39.75:3000/Controller/controllerInfo.html</a>
+    </h3>
+    
+    <h2>
+        3. Link the controller using the game ID in your display.
+    </h2>
+
 </body>
 
 </html>
